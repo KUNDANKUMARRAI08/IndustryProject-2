@@ -1,0 +1,72 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int a=12,b=15;
+        Console.WriteLine(a+b);
+        Console.WriteLine(a-b);
+        Console.WriteLine(a%b);
+        Console.WriteLine(a/b);
+        Console.WriteLine(a*b);
+        
+        if(a<b)
+            Console.WriteLine("true");
+            else
+                Console.WriteLine("False");
+    }
+}
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+       int a= 554584;
+       int cout= 0;
+       while(a!=0){
+           a=a/10;
+           cout=cout+1;
+       }
+       Console.WriteLine("number "+cout);
+    }
+}
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+           int num=10, x;
+            for (x = 1; x <= num; x++)
+            {
+                if (num % x == 0)
+                {
+                    Console.WriteLine(x);
+                }
+            }
+    }
+}
+
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        double a =25;
+        
+        double kg = a/1000;
+        double g = a*1000;
+        Console.WriteLine (kg);
+        
+         Console.WriteLine (g);
+        
+        
+        
+    }
+}

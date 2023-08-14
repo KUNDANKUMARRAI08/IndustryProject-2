@@ -1,0 +1,21 @@
+1. Functions of Data Link Layer 
+● Provides a reliable link between two nodes.
+● Detects and corrects errors in data transmission.
+● Manages the flow of data between two nodes.
+● Provides addressing for data frames.
+● Encapsulates data frames for transmission over the physical layer.
+The Data Link Layer is responsible for ensuring that data is transmitted reliably and efficiently 
+between two nodes on a network. It does this by performing the following functions: 
+● Error detection and correction: The Data Link Layer uses a variety of techniques to detect 
+and correct errors in data transmission. These techniques include checksums, cyclic 
+redundancy checks (CRCs), and forward error correction (FEC).
+● Flow control: The Data Link Layer manages the flow of data between two nodes to prevent 
+one node from overwhelming the other. This is done by using a variety of techniques, such 
+as windowing and sliding windows.
+● Addressing: The Data Link Layer provides addressing for data frames. This allows each 
+node on a network to uniquely identify each other.
+● Encapsulation: The Data Link Layer encapsulates data frames for transmission over the 
+physical layer. This process involves adding a header and footer to the data frame. The 
+header contains information about the data frame, such as the source and destination 
+addresses, the frame length, and the error detection code. The footer contains information 
+about the end of the frame.

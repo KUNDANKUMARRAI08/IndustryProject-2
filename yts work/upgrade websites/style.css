@@ -1,0 +1,112 @@
+.main{
+    background-image: url(./picture/main\ baneer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+    padding: 100px;
+}
+.navbar-nav .nav-link {
+    text-transform: initial;
+    padding: 5px 15px;
+    color: #858585;
+    font-size: 15px;
+    font-weight: 400px;
+   display: flexbox;
+}
+.navbar-nav{
+    padding: 100px,100px;
+    text-align: center;
+}
+.left-main{
+    flex: 1;
+}
+.right-main{
+    flex: 1;
+    margin-left: 50pxpx;
+    margin-bottom: 100px;
+    background-color: #bb1f2e;
+}
+.program-sec{
+    display: flex;
+    margin: 30px;
+   
+}
+#heading{
+    text-align: center;
+    margin-top: 30px;
+}
+.program-left{
+    padding-right: 30px;
+}
+.program{
+    padding-left: 80px;
+    margin-top: 50px;
+}
+h5{
+    margin: 20px;
+}
+#image{
+    width: 30px;
+    height: 30px;
+}
+#image2{
+    width: 70px;
+    height: 70px;
+}
+.job-ready{
+    display: flex;
+}
+.job-left{
+    display: 1;
+}
+.job-right{
+    display: 1;
+}
+#girlimage{
+    width: 550px;
+    height: 700px;
+}
+#jobheading{
+    text-align: center;
+}
+
+#imagejob{
+    width: 60px;
+    height: 60px;
+}
+.job-sec{
+    display:flex ;
+}
+.job-ready{
+    display: flex;
+}
+.job{
+    padding-left: 80px;
+    margin-top: 50px;
+}
+.job-sec{
+    display: flex;
+    margin: 20px;
+   
+}
+.sub-job-left{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.job-right{
+    margin-top: 20px;
+}
+#imgroate{
+    transform:rotate(180deg);
+    /* display: flex;
+    justify-content:flex-end; */
+}
+
+.dm-lp-section-two{
+    background-color: #EEEEEE;
+    padding: 180px;
+}
+#cardheading{
+    text-align:center;
+}
